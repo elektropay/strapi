@@ -5,7 +5,7 @@
     "secret": "_csrfSecret"
   },
   "csp": {
-    "enabled": false,
+    "enabled": true,
     "policy": {
       "default-src": "'self'"
     }
@@ -20,7 +20,7 @@
     "includeSubDomains": true
   },
   "xframe": {
-    "enabled": false,
+    "enabled": true,
     "value": "SAMEORIGIN"
   },
   "xss": {

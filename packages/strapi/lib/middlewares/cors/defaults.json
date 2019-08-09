@@ -19,8 +19,7 @@
     ],
     "headers": [
       "Content-Type",
-      "Authorization",
-      "X-Forwarded-Host"
+      "Authorization"
     ],
     "keepHeadersOnError": false
   }

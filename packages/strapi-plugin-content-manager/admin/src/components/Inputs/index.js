@@ -57,6 +57,7 @@ function Inputs({ autoFocus, keys, layout, modifiedData, name, onChange }) {
   const disabled = useMemo(() => !get(metadatas, 'editable', true), [
     metadatas,
   ]);
+
   const type = useMemo(() => get(attribute, 'type', null), [attribute]);
   const inputStyle = type === 'text' ? { height: '196px' } : {};
   const validations = omit(attribute, [
